@@ -1,0 +1,3 @@
+pattern
+pattern is console
+nice to meet the pattern

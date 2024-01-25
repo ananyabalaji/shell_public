@@ -1,0 +1,6 @@
+#foo quux < bar > baz
+grep bar < bar.txt > baz.txt
+#foo < bar quux > baz
+grep < bar.txt bar > baz.txt
+#foo > baz < bar quux
+grep > baz.txt < bar.txt bar

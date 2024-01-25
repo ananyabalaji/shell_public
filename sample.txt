@@ -1,0 +1,6 @@
+clear
+cd subdir
+pwd
+which ls
+ls -a
+exit

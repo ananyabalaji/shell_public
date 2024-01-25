@@ -1,0 +1,14 @@
+total 200
+-rw-r--r--  1 meenabalaji  staff    195 Nov 26 14:04 Makefile
+-rw-r--r--  1 meenabalaji  staff    834 Nov 29 14:49 README.md
+drwxr-xr-x  3 meenabalaji  staff     96 Nov 26 10:21 apple
+-rw-r--r--  1 meenabalaji  staff      0 Nov 29 15:27 file_list.txt
+-rw-r--r--  1 meenabalaji  staff    133 Nov 28 01:50 input.txt
+-rwxr-xr-x  1 meenabalaji  staff  59032 Nov 29 15:25 mysh
+-rw-r--r--  1 meenabalaji  staff   6777 Nov 29 15:25 mysh.c
+drwxr-xr-x  3 meenabalaji  staff     96 Nov 26 14:06 mysh.dSYM
+-rw-r-----  1 meenabalaji  staff      5 Nov 29 15:25 output.txt
+-rw-r--r--  1 meenabalaji  staff     39 Nov 19 16:47 sample.txt
+-rw-r--r--  1 meenabalaji  staff    110 Nov 29 14:44 unsorted.txt
+-rw-r--r--  1 meenabalaji  staff     15 Nov 26 10:44 wc1.txt
+-rw-r--r--  1 meenabalaji  staff     15 Nov 26 10:45 wc2.txt
