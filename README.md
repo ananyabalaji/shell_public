@@ -1,5 +1,4 @@
-# Shell
-## Name: Ananya Balaji
+# Shell - Ananya Balaji
 
 ## To run Interactive Mode, first `make`, then perform `./mysh`
 ## To run Batch Mode, run `./mysh _____`, where ____ is the file name
