@@ -65,7 +65,7 @@
    - Example 2: `cat repeats.txt | uniq > uniques.txt`
      - Prints out the results of repeats.txt, removes duplicated consecutive lines, and puts them in uniques.txt.
 
-## Part 4: Syntax Errors Test Cases (Menendez Version - needs updating)
+## Part 4: Syntax Errors Test Cases 
    - Example 1: `cat | `, `grep | `,  `echo | `, '| cat', '* |', ' < | *'
      - Prints out that it is an invalid pipe command
    - Example 2) `cat >`, `ls <`, `cat < >`, '<> cat', '< cat'
@@ -82,9 +82,6 @@
        - Then prints all locations that exist before the non-existing command `apple`, which is an error and therefore exits the shell before further processing
    - Example 6) 'apple cd', 'apple which ls', '* cat'
      - execv: detection of no file or directory
-   - **Starting Point for Error:**
-     - Look at pipeline code that seems to work for ERROR IN THAT CASE
-     - See how to match batch case formatting
 
 ## Part 5: Conditional Execution (Then, Else)
    - 'cd' always returns status of 0 even if the file/directory does not exist
