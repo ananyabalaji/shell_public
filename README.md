@@ -33,7 +33,7 @@
    - Example 2: `ls -l > file_list.txt`
      - Lists files in the current directory and saves the output to file_list.txt.
    - Example 3: `which ls > whichoutput.txt`
-   --------ADD POINTS HERE----
+     - Locate files with associate command ls and redirects it to whichoutput.txt. 
 
 3. **Combining Input & Output Redirection**
    - Example: `sort < unsorted.txt > sorted.txt`
