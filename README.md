@@ -1,8 +1,5 @@
 # Shell
 ## Name: Ananya Balaji
-## NetID: ab2389
-
-Welcome to Systems Project 3! Good luck! :)
 
 ## To run Interactive Mode, first `make`, then perform `./mysh`
 ## To run Batch Mode, run `./mysh _____`, where ____ is the file name
