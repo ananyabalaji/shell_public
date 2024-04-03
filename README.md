@@ -85,13 +85,13 @@
 ## Part 5: Conditional Execution (Then, Else)
    - 'cd' always returns status of 0 even if the file/directory does not exist
      - Therefore 'then' and 'else' will proceed as if the prior 'cd' command was successful
-   - `cat wc1.txt; then cat appleyanu; else echo "hi"` [THEN, ELSE]
+   - `cat wc1.txt`, `then cat appleyanu`, `else echo "hi"` [THEN, ELSE]
      - Status of 0, 1, then else can execute echo "hi"
-   - `cat apple, else echo "correct", then echo "continued"` [ELSE, THEN]
+   - `cat apple`, `else echo "correct"`, `then echo "continued"` [ELSE, THEN]
      - Status of 1, else executes with status 0, then executes because of 0
-   - `cat apple, else echo "correct", else echo "incorrect"` [ELSE, ELSE]
+   - `cat apple`, `else echo "correct"`, `else echo "incorrect"` [ELSE, ELSE]
      - Status of 1, else executes with status 0, then else for command 0 not execute (so nothing done)
-   - `cat wc1.txt, then echo "correct", then echo "yippee"` [THEN, THEN]
+   - `cat wc1.txt`, `then echo "correct"`, `then echo "yippee"` [THEN, THEN]
      - Status of 0, then executes with status 0, the new then executes with status 0
 
    - cat then | grep else (works)
